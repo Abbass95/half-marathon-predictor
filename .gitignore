@@ -1,0 +1,19 @@
+# Raw personal data - GPS tracks reveal home location, never commit
+Historical data*/
+data/
+*.fit
+*.fit.gz
+*.gpx
+*.parquet
+
+# Secrets
+.env
+.garminconnect/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local tool settings
+.claude/

@@ -1,0 +1,90 @@
+{
+  "abbass_features": {
+    "k5_s": 1503.2673267326732,
+    "k10_s": 3306.456822506366,
+    "typical_km_week": 9.428841666666669,
+    "max_km_week": 28.3058,
+    "age": 31.0,
+    "bmi": 23.120623596247853,
+    "female": 0.0,
+    "sprint": 0.0,
+    "tempo": 0.0,
+    "hm_fitness": 4.0,
+    "hm_difficulty": 3.0,
+    "age_is_imputed": false,
+    "bmi_is_imputed": false
+  },
+  "vickers_5k_linear": {
+    "n": 816,
+    "cv_mae_s": 342,
+    "cv_mae_s_low_volume_runners": 544,
+    "n_low_volume": 109,
+    "pred": "2:07:00",
+    "coef_per_unit_log_time": {
+      "log_short": 0.7951,
+      "log_typical": -0.0197,
+      "log_max": -0.0402,
+      "age": -0.0001,
+      "bmi": 0.0037,
+      "female": 0.0141,
+      "sprint": -0.0036,
+      "tempo": 0.0017,
+      "hm_fitness": 0.017,
+      "hm_difficulty": -0.0128
+    }
+  },
+  "vickers_5k_GBM": {
+    "n": 816,
+    "cv_mae_s": 345,
+    "cv_mae_s_low_volume_runners": 573,
+    "n_low_volume": 109,
+    "pred": "2:06:04"
+  },
+  "vickers_10k_linear": {
+    "n": 526,
+    "cv_mae_s": 344,
+    "cv_mae_s_low_volume_runners": 462,
+    "n_low_volume": 68,
+    "pred": "2:10:00",
+    "coef_per_unit_log_time": {
+      "log_short": 0.7237,
+      "log_typical": -0.0352,
+      "log_max": -0.0241,
+      "age": 0.0012,
+      "bmi": 0.0053,
+      "female": 0.0417,
+      "sprint": 0.0083,
+      "tempo": -0.0214,
+      "hm_fitness": 0.0172,
+      "hm_difficulty": -0.0106
+    }
+  },
+  "vickers_10k_GBM": {
+    "n": 526,
+    "cv_mae_s": 373,
+    "cv_mae_s_low_volume_runners": 538,
+    "n_low_volume": 68,
+    "pred": "2:07:50"
+  },
+  "bayes": {
+    "prior": "2:08:29",
+    "prior_log_sd": 0.0726,
+    "likelihood": "2:00:58",
+    "likelihood_log_sd": 0.0254,
+    "weight_on_personal": 0.891,
+    "posterior": "2:01:46"
+  },
+  "bmclab": {
+    "n_athletes": 17093,
+    "cv_mae_s": 539.4,
+    "pred_s": 7298.6,
+    "volume_percentile": 5.1,
+    "longest_percentile": 2.0,
+    "median_km_per_week": 35.4,
+    "abbass": {
+      "km_per_week_12w": 9.428841666666669,
+      "longest_12w": 12.0135,
+      "best_5_10k_pace": 315.84854702653405
+    }
+  }
+}

@@ -1,0 +1,32 @@
+race:
+  name: Semi-marathon Marcq-en-Baroeul
+  date: 2026-09-20            # everything used for prediction must be strictly before this date
+  strava_activity_id: 20252257220
+  distance_km: 21.0975
+  lat: 50.6717                # Marcq-en-Baroeul
+  lon: 3.0967
+  timezone: Europe/Paris
+
+runner:
+  sex: M                      # from Strava profile
+  age: 31                     # years on race day
+  height_cm: 174
+  weight_kg: 70               # Garmin weigh-in 2026-06-06
+  # Self-rating used by the Vickers survey (1 = as fit as ever ... 4 = not well prepared).
+  # Known before the race, so it is a legitimate input.
+  fitness_rating: 4
+
+paths:
+  strava_export: Historical data abbass/export_168650516
+  raw: data/raw
+  processed: data/processed
+  outputs: outputs
+  vickers_xlsx: data/raw/13102_2016_52_MOESM2_ESM.xlsx
+
+garmin:
+  start_date: 2026-05-15      # first Garmin-recorded activities are early June 2026
+
+llm:
+  model: claude-opus-5-5
+  small_model: claude-haiku-4-5
+  samples: 5

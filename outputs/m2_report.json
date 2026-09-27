@@ -1,0 +1,50 @@
+{
+  "M2a": {
+    "n_splits": 316,
+    "n_runs": 41,
+    "baseline_mean_mae": 27.7,
+    "Ridge": {
+      "loro_mae_s_per_km": 24.4,
+      "time_split_mae": 40.4,
+      "pred": "2:18:12"
+    },
+    "GBM": {
+      "loro_mae_s_per_km": 22.3,
+      "time_split_mae": 36.9,
+      "pred": "2:29:07"
+    }
+  },
+  "M2b": {
+    "feature_set_loro_mae": {
+      "full": 20.4,
+      "physio+trend": 19.7,
+      "physio": 22.8,
+      "hr+km": 28.5,
+      "hr only": 31.1
+    },
+    "chosen_feature_set": "physio+trend",
+    "n_splits": 140,
+    "n_runs": 19,
+    "race_effort_hr": 168.0,
+    "baseline_mean_mae": 30.6,
+    "ridge_coef_s_per_unit": {
+      "km": 4.76,
+      "elev_gain_m": 2.02,
+      "temp_c": -1.52,
+      "hr": -1.06,
+      "days_before_race": -0.53
+    },
+    "Ridge": {
+      "loro_mae_s_per_km": 19.7,
+      "pred": "2:24:07"
+    },
+    "GBM": {
+      "loro_mae_s_per_km": 27.0,
+      "pred": "2:19:27"
+    },
+    "GBM_quantile_10_90": [
+      "1:59:26",
+      "2:33:37"
+    ]
+  }
+}

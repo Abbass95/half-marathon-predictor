@@ -1,0 +1,14 @@
+,importance
+km_last_84d,0.63
+elev_gain_m,0.45
+hr,0.09
+sleep_h,0.07
+km,0.05
+days_before_race,0.02
+run_km,0.01
+sleep_score,0.01
+temp_c,0.01
+hrv_overnight_ms,0.01
+body_battery_wake,0.0
+resting_hr,0.0
+longest_to_date_km,0.0

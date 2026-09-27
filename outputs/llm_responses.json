@@ -1,0 +1,1154 @@
+{
+ "ed34b43eaf4330cb": {
+  "tag": "M4 minimal profile",
+  "model": "claude-opus-5-5",
+  "sample": 0,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 543
+   },
+   "cache_creation_input_tokens": 543,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 459,
+   "output_tokens_details": {
+    "thinking_tokens": 170
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.011911,
+  "created": "2026-09-27T20:28:30",
+  "output": {
+   "predicted_seconds": 7800,
+   "low_seconds": 7100,
+   "high_seconds": 9000,
+   "reasoning": "A 55:06 10 km run in February converts to about 2:01 for the half marathon using Riegel's formula. That figure assumes endurance built for the distance, which this runner lacks. Weekly volume has been only about 9.4 km, the longest recent run is 12 km, and this is his first half marathon, so he will likely fade in the second half. The 10 km result is also seven months old, and fitness has probably slipped on such low mileage. At about 18 °C the conditions are mild but slightly warm, which adds a small penalty. Combining these factors, I estimate 8–12% slower than the Riegel figure, for a best estimate of about 2:10. The interval is wide and skewed toward slower times, because a big fade or walking breaks late in the race are plausible."
+  }
+ },
+ "7fccaa4c2f94b8bb": {
+  "tag": "M4 minimal profile",
+  "model": "claude-opus-5-5",
+  "sample": 1,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 543,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 453,
+   "output_tokens_details": {
+    "thinking_tokens": 145
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.009293200000000001,
+  "created": "2026-09-27T20:28:40",
+  "output": {
+   "predicted_seconds": 7620,
+   "low_seconds": 6900,
+   "high_seconds": 9000,
+   "reasoning": "Scaling the 55:06 10 km with a Riegel-style formula gives about 1:55 for the half marathon. That assumes endurance comparable to the 10 km, which is unlikely here. Weekly volume is very low at about 9.4 km, and the longest recent run is 12 km, so the last 9 km will be new territory. It is also his first half marathon, which usually brings pacing mistakes and a late fade. The 10 km result is seven months old and may not reflect current fitness. At about 18 °C, conditions are fine to slightly warm. I add roughly 10–15 minutes for the endurance deficit and a likely slowdown after 15 km, giving about 2:07. The interval runs from about 1:55 if he paces well and holds up, to about 2:30 if he fades badly or does run/walk sections."
+  }
+ },
+ "a734c45cc7de38cf": {
+  "tag": "M4 minimal profile",
+  "model": "claude-opus-5-5",
+  "sample": 2,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 543,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 452,
+   "output_tokens_details": {
+    "thinking_tokens": 161
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0092732,
+  "created": "2026-09-27T20:28:50",
+  "output": {
+   "predicted_seconds": 7800,
+   "low_seconds": 7050,
+   "high_seconds": 9000,
+   "reasoning": "Scaling the 55:06 10K with the Riegel formula gives about 2:01 as the equivalent half marathon. That figure assumes adequate endurance, and this runner likely lacks it. He averages only about 9.4 km a week, his longest recent run is 12 km, and this is his first half marathon, so a significant fade in the second half is likely. The 10K is also seven months old, and at such low volume his fitness may have slipped since February. At 18 °C there is only a small heat penalty. Adding roughly 7–10% for limited endurance and inexperience gives a best estimate around 2:10. The range runs from about 1:57, if he paces well and has held his fitness, to about 2:30, if he goes out too fast and ends up run-walking the late kilometres."
+  }
+ },
+ "f6efafd9986aaf28": {
+  "tag": "M4 minimal profile",
+  "model": "claude-opus-5-5",
+  "sample": 3,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 543,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 476,
+   "output_tokens_details": {
+    "thinking_tokens": 158
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0097532,
+  "created": "2026-09-27T20:28:57",
+  "output": {
+   "predicted_seconds": 7980,
+   "low_seconds": 7100,
+   "high_seconds": 9300,
+   "reasoning": "The 55:06 10 km converts to about 2:01 using the Riegel formula (exponent 1.06). That conversion assumes the runner is trained for the distance, and this one is not. Adjustments: 1) Very low volume, about 9.4 km a week, with a longest run of 12 km, means he is not built for 21 km. Expect a significant fade in the second half, typically 6–12% slower than the conversion. 2) The 10 km benchmark is 7 months old and training has been sparse since, so fitness has probably slipped somewhat. 3) This is his first half marathon, so pacing errors are likely. 4) At about 18 °C, heat is a minor factor. Best estimate is about 2:13. The range runs from about 1:58 if he paces well and his fitness has held, to about 2:35 if the fade is severe or he has to walk."
+  }
+ },
+ "6ee67bba9baed5ff": {
+  "tag": "M4 minimal profile",
+  "model": "claude-opus-5-5",
+  "sample": 4,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 543,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 424,
+   "output_tokens_details": {
+    "thinking_tokens": 147
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0087132,
+  "created": "2026-09-27T20:29:03",
+  "output": {
+   "predicted_seconds": 7920,
+   "low_seconds": 7100,
+   "high_seconds": 9300,
+   "reasoning": "Scaling the 55:06 10 km with a Riegel-style formula gives about 2:01 for the half marathon. That equivalence assumes endurance training this runner does not have. He averages only about 9.4 km per week, his longest recent run is 12 km, and this is his first half marathon. The 10 km result is also seven months old. With this little volume, a noticeable fade over the last 6–9 km is likely, possibly with some walking. The 18 °C conditions add a small extra cost. Adjusting for all of this, my best estimate is about 2:12 (7,920 s). The 90% range runs from 1:58, if he paces conservatively and holds on, to 2:35, if he fades badly or walks substantial stretches."
+  }
+ },
+ "dddc848f315e5d34": {
+  "tag": "M4 minimal profile",
+  "model": "claude-haiku-4-5",
+  "sample": 0,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "not_available",
+   "input_tokens": 431,
+   "output_tokens": 348,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.002171,
+  "created": "2026-09-27T20:29:09",
+  "output": {
+   "predicted_seconds": 1976,
+   "low_seconds": 1856,
+   "high_seconds": 2096,
+   "reasoning": "This is a first-time half marathoner with modest recent training volume (9.4 km/week average). Key evidence: Best 10k time of 55:06 suggests a current 10k pace around 5:31/km. His longest recent run is 12 km, which is shorter than the 21.1 km race distance, indicating limited specific endurance for the half marathon distance. With 12 weeks of training but relatively low weekly mileage, he has not built an extensive aerobic base. Using the 10k time as a reference: a runner with a 55:06 10k typically runs a half marathon at roughly 1:58-2:05 depending on fitness and race-specific endurance. Given his limited long-run experience (12 km max) and first-time HM status, I estimate he will run slightly slower than a simple extrapolation from 10k pace would suggest—expect some deceleration in the final 5-6 km due to aerobic demands beyond his recent training. Predicted time: 32:56 (1976 seconds). The 90% confidence interval accounts for: (low) optimistic scenario where he runs well and negative splits, around 30:56 (1856 sec); (high) realistic scenario where first-time HM jitters and insufficient long-run training lead to slower final km, around 34:56 (2096 sec)."
+  }
+ },
+ "b4d9080631c10c58": {
+  "tag": "M4 minimal profile",
+  "model": "claude-haiku-4-5",
+  "sample": 1,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "not_available",
+   "input_tokens": 431,
+   "output_tokens": 402,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.002441,
+  "created": "2026-09-27T20:29:15",
+  "output": {
+   "predicted_seconds": 1963,
+   "low_seconds": 1840,
+   "high_seconds": 2086,
+   "reasoning": "The runner's best 10 km time of 55:06 (5:31/km pace) provides the primary reference point. Using established race prediction models (Riegel, Vickers, VDOT), a 55:06 10K typically projects to a half-marathon around 1:55-2:00 (5:28-5:44/km pace). However, several factors suggest caution: (1) Recent training volume is modest at 9.4 km/week—below ideal for half-marathon preparation, suggesting incomplete aerobic development. (2) The longest recent run of 12 km is only slightly longer than the race distance, leaving limited margin for pacing confidence and aerobic sustainability. (3) This is the runner's first half-marathon, so execution risk (pacing, fueling, mental stamina) is real. (4) The 7-month gap since the 10K best suggests fitness may have drifted or plateaued. (5) At 70 kg and 174 cm (BMI ~23.1), body composition is reasonable. Tempering the projection from pure 10K extrapolation by ~1-2%, I estimate 1:32:43 (approximately 5:43/km pace, 3-5% slower than recent 10K pace—typical for a well-executed half-marathon debut with moderate training). The 90% interval reflects uncertainty from training volume, race-day execution, and first-time pacing risk: 30:40–34:46 (low end assumes very good pacing/conditions; high end assumes suboptimal execution or hitting a wall after 15 km)."
+  }
+ },
+ "1457e48b1046c7a3": {
+  "tag": "M4 minimal profile",
+  "model": "claude-haiku-4-5",
+  "sample": 2,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "not_available",
+   "input_tokens": 431,
+   "output_tokens": 355,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.002206,
+  "created": "2026-09-27T20:29:20",
+  "output": {
+   "predicted_seconds": 1986,
+   "low_seconds": 1872,
+   "high_seconds": 2118,
+   "reasoning": "The runner's recent 10 km time of 55:06 (331 seconds) in February 2026 provides the most direct performance indicator. Using standard race prediction models (McMillan, VVO2max-based formulas), a 55:06 10 km pace typically predicts a half-marathon around 1:51-1:56, accounting for the longer distance requiring slightly slower pace. The runner's recent weekly mileage of 9.4 km/week is quite modest for half-marathon training, and the longest recent run was 12 km, which is below ideal half-marathon preparation (typically 15-16 km long runs). This suggests the runner may not realize the full aerobic potential indicated by the 10 km time due to insufficient endurance training volume. However, as a first-time half-marathoner with good recent 10 km fitness, strong aerobic base seems present. Conservative adjustment: predicted finish time ~33:06 (1986 seconds, approximately 1:52 for 21.1 km). Low estimate (90% confidence): 1872 seconds (31:12, assuming good race execution and pacing strategy). High estimate (90% confidence): 2118 seconds (35:18, accounting for potential pacing errors, wall-hitting risk, or underestimation of distance effect with modest training volume). These intervals reflect uncertainty from training-race fitness gap and first-time half-marathon execution risk."
+  }
+ },
+ "aeb48fb3c0a2bbb8": {
+  "tag": "M4 minimal profile",
+  "model": "claude-haiku-4-5",
+  "sample": 3,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "not_available",
+   "input_tokens": 431,
+   "output_tokens": 349,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.002176,
+  "created": "2026-09-27T20:29:25",
+  "output": {
+   "predicted_seconds": 2044,
+   "low_seconds": 1920,
+   "high_seconds": 2180,
+   "reasoning": "The runner's recent 10 km time of 55:06 (331 sec/km) provides the most direct contemporary data for prediction. Using a standard pace degradation model for a runner moving from 10 km to 21.1 km as their first half marathon, we expect approximately 10-12% pace slowing due to the doubled distance and aerobic/glycogen demands. This yields an estimated pace of 370-375 sec/km for the half marathon. At 370 sec/km for 21.1 km, the predicted time is approximately 34:00 (2040 seconds). The runner's training volume of 9.4 km/week is modest but adequate for completing a half marathon, though it suggests this is not a peak performance attempt. The 12 km longest run in the past 8 weeks is reasonable preparation for 21.1 km. Age, BMI (~23.2, healthy), and flat course are favorable. Given that this is the runner's first half marathon with adequate but not extensive training, and no performance data after February 2026 to indicate recent fitness changes, the prediction reflects conservative expectations: predicted time 34:04 (2044 sec), with a 90% confidence interval of 32:00–36:20 (1920–2180 sec) accounting for variability in race-day execution and the inherent uncertainty in extrapolating from a single recent benchmark race."
+  }
+ },
+ "2c37bd4e5ff59ec8": {
+  "tag": "M4 minimal profile",
+  "model": "claude-haiku-4-5",
+  "sample": 4,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "not_available",
+   "input_tokens": 431,
+   "output_tokens": 333,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.002096,
+  "created": "2026-09-27T20:29:31",
+  "output": {
+   "predicted_seconds": 2032,
+   "low_seconds": 1920,
+   "high_seconds": 2180,
+   "reasoning": "The runner's 10 km PB of 55:06 (5:31/km pace) provides a solid reference point. For a first half marathon on a flat course, linear extrapolation would suggest ~1:56:00, but several factors warrant caution: (1) The training volume of 9.4 km/week is modest for a half marathon—this is below recommended levels and suggests aerobic base may be somewhat limited; (2) The longest run of 12 km in the last 8 weeks is adequate but not substantially beyond the race distance, indicating limited specific half-marathon preparation; (3) There's a ~7.5-month gap since the 10 km best time, so current fitness is uncertain; (4) First-time half marathons often feature pacing errors and mental fatigue over the longer distance. A reasonable estimate accounts for slight deterioration from the 10 km pace (roughly 5–7% is typical for trained runners; this runner appears moderately trained). Assuming a pace of ~5:50–6:05/km for 21.1 km yields a central estimate around 33:55 (2032 seconds). The 90% interval (low: 32:00, high: 36:20) reflects uncertainty from fitness decay, pacing execution, and the demands of first-time racing at this distance."
+  }
+ },
+ "386928fc70ce4b79": {
+  "tag": "M4 full training log",
+  "model": "claude-opus-5-5",
+  "sample": 0,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5562
+   },
+   "cache_creation_input_tokens": 5562,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 922,
+   "output_tokens_details": {
+    "thinking_tokens": 458
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.046266,
+  "created": "2026-09-27T20:29:42",
+  "output": {
+   "predicted_seconds": 7320,
+   "low_seconds": 6750,
+   "high_seconds": 8400,
+   "reasoning": "The main limiter is endurance, not speed. He has averaged about 9 km/week over the last 12 weeks, his longest run in the last 8 weeks is 12 km, and he rated himself not well prepared.\n\nSpeed evidence:\n- His recent 5 km training best of 26:12 (in 31°C heat) Riegel-scales to about 2:00–2:01.\n- His Feb 15 km at 5:35/km suggests he was once around 1:58–2:00 shape.\n- Typical training runs sit at 5:40–6:00/km at an average HR of about 160. Race adrenaline should let him open around 5:30–5:40/km.\n\nWhy I expect him to fade:\n- The low mileage and short long runs point to a significant slowdown after roughly 14–15 km.\n- August–September paces have also drifted slower, partly because of hilly routes.\n\nConditions are fair: about 18°C, some wind and a mild 100 m of climbing. I ignore Garmin's VO2max of 51.2, which would imply about 1:40 and is unrealistic at this volume.\n\nBest estimate is about 2:02, with a 90% range of roughly 1:52:30 to 2:20 (the slow end covers walking in the late kilometres)."
+  }
+ },
+ "d5c33a6e3e1f0222": {
+  "tag": "M4 full training log",
+  "model": "claude-opus-5-5",
+  "sample": 1,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 5562,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 792,
+   "output_tokens_details": {
+    "thinking_tokens": 398
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.018080799999999998,
+  "created": "2026-09-27T20:29:52",
+  "output": {
+   "predicted_seconds": 7350,
+   "low_seconds": 6750,
+   "high_seconds": 8400,
+   "reasoning": "Recent 5 km training bests are 25:03 (June) and 26:12 (August). Riegel scaling from about 25:30 projects a half marathon of roughly 1:57–1:58. That projection assumes adequate endurance, and this runner doesn't have it. He averages about 9 km/week, his longest run in the last 8 weeks is 12 km (at 6:16/km), he has rated himself not well prepared, and this is his first half marathon. All of that points to a late-race fade. On the plus side, he regularly ran 8–11 km at 5:40–5:50/km in training. He managed 15 km at 5:35/km in February, but volume has dropped since. He likely goes out around 5:35–5:45/km and slows over the last 6–8 km. Conditions are mild (18°C, 67% humidity), with moderate wind and a modest 100 m of climbing. Best estimate is about 2:02–2:03. The interval runs from about 1:52 if race-day adrenaline carries him through with little fade, to about 2:20 if the fade is severe or he has to walk."
+  }
+ },
+ "c2c4f7049d076112": {
+  "tag": "M4 full training log",
+  "model": "claude-opus-5-5",
+  "sample": 2,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 5562,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 1068,
+   "output_tokens_details": {
+    "thinking_tokens": 415
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.023600799999999998,
+  "created": "2026-09-27T20:30:05",
+  "output": {
+   "predicted_seconds": 7380,
+   "low_seconds": 6780,
+   "high_seconds": 8400,
+   "reasoning": "The best estimate is about 2:03, with a likely range of roughly 1:53 to 2:20.\n\n**Speed.** Recent training best efforts are a 5 km in 26:12 (inside a 5.7 km run at 31°C) and a 10 km in 1:02:00 (inside a 12 km run at 26°C). A rested race effort over 5 km would likely be around 24:30–25:00. A standard distance conversion from that gives roughly 1:53–1:57 for a half marathon, but it assumes endurance this runner does not have.\n\n**Endurance limits.**\n- Volume is very low, about 9 km per week over the last 12 weeks.\n- The longest run in the last 8 weeks is 12 km, and the longest ever is 15 km.\n- Training has been inconsistent, with gaps.\n- He rates himself 'not well prepared'.\n\nAll of this points to a significant fade over the last 6–8 km.\n\n**Other evidence.**\n- In February, at higher fitness, he ran 15 km at 5:35/km in training. That suggests he might have managed about 1:58 then; current fitness is somewhat lower.\n- Watch data (VO2max 51, resting heart rate 39, heart rate 145 at 6:06/km) points to a good aerobic base, possibly from other sports. This partly offsets the low running volume.\n\n**Race conditions.** The weather is mild (18°C, 67% humidity), though a 17 km/h wind and 100 m of climbing add a little time. Race-day adrenaline and pacing help.\n\n**Estimate.** I expect about 5:40–5:45/km early, slowing late, for roughly 2:03. The range is wide because of the endurance uncertainty: 1:53 if pacing goes well, 2:20 if he fades badly or has to walk."
+  }
+ },
+ "fddba699461e6ed1": {
+  "tag": "M4 full training log",
+  "model": "claude-opus-5-5",
+  "sample": 3,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 5562,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 715,
+   "output_tokens_details": {
+    "thinking_tokens": 354
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.016540799999999998,
+  "created": "2026-09-27T20:30:14",
+  "output": {
+   "predicted_seconds": 7440,
+   "low_seconds": 6780,
+   "high_seconds": 8520,
+   "reasoning": "Training volume is very low: about 9.4 km/week over the last 12 weeks, with a longest recent run of 12 km and only one 15 km run ever. The strongest data point, a 15 km at 5:35/km in February, is old. Recent training bests are 5 km in 26:12 and a 10 km at about 6:12/km inside a 12 km run. On their own these project to roughly 2:00-2:05 for the half. Race-day adrenaline and a Garmin VO2max estimate of 51 (resting HR 39, possibly helped by other activity) suggest more speed is available. The lack of endurance should still cause a fade after 14-15 km. Conditions are mild (18°C, moderate wind) and the course is only slightly rolling. Expect about 5:40-5:50/km early, slowing to 6:15+ late, for about 2:04. The range runs from a strong, well-paced day (about 1:53) to a significant late blow-up with walking (about 2:22)."
+  }
+ },
+ "63caa680382483a0": {
+  "tag": "M4 full training log",
+  "model": "claude-opus-5-5",
+  "sample": 4,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 5562,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 783,
+   "output_tokens_details": {
+    "thinking_tokens": 390
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.017900799999999998,
+  "created": "2026-09-27T20:30:24",
+  "output": {
+   "predicted_seconds": 7230,
+   "low_seconds": 6650,
+   "high_seconds": 8300,
+   "reasoning": "This is a first half marathon on very low volume: about 9 km/week, a longest run of 15 km ever and 12 km in the last 8 weeks. The runner also rates himself as not well prepared. Fitness looks lower than in winter. The February training 15 km went at 5:35/km. Recent flat efforts are around 5:16–5:50/km, and the recent 10 km effort was 6:16/km in heat. A likely race 5 km of about 24:30–25:00 projects to roughly 1:53–1:56 by the Riegel formula. Low mileage and no runs beyond 15 km mean a likely fade in the last 5–6 km, so I add a few minutes. Supporting factors are a resting HR of 39, Garmin VO2max 51, a mild 18°C forecast and mostly flat terrain. The 17 km/h wind and 67% humidity are small negatives. Best estimate is an average of about 5:40–5:45/km, close to 2:00. The interval is wide to allow for either a strong adrenaline-fuelled run or significant late-race walking."
+  }
+ },
+ "c0e3f17af188dc96": {
+  "tag": "M4 full training log",
+  "model": "claude-haiku-4-5",
+  "sample": 0,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 5082
+   },
+   "cache_creation_input_tokens": 5082,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "not_available",
+   "input_tokens": 3,
+   "output_tokens": 463,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0086705,
+  "created": "2026-09-27T20:30:31",
+  "output": {
+   "predicted_seconds": 8370,
+   "low_seconds": 7920,
+   "high_seconds": 8820,
+   "reasoning": "The runner is a 31-year-old male with only ~1 year of running experience (since Sept 2025) running his first half marathon. Key indicators: (1) Best efforts show 5km PB of 25:03 (5:00/km pace) from June 2026 and recent 10km best of 62:00 (6:12/km) from August. (2) Recent training has been highly inconsistent with significant gaps (0km weeks), low weekly volume (9.4 km/week avg last 12 weeks), and only 2 runs over 10km in past 12 weeks. Longest run ever is 15km. (3) Recent trend is concerning: paces have slowed considerably (7:27/km on Aug 30, 7:15/km on Sept 14, latest run showing fatigue/decline). (4) Self-rated fitness is poor (4 on 1-4 scale). (5) Race-day conditions are decent (18°C, moderate wind). (6) VO2max estimate of 51.2 is reasonable but doesn't compensate for limited race-specific preparation. (7) Wellness metrics are acceptable but sleep is slightly low at 6.8h with moderate HRV. Using conservative pacing models: Current 10km pace ~6:12/km suggests realistic half-marathon pace of 6:35-6:45/km given lack of long-run training and first-race inexperience. This yields ~2:19-2:24 finish time. The 90% confidence interval accounts for: downside risk (hitting wall, dehydration, pacing misjudgment given first HM) and upside potential (adrenaline, better pacing management, favorable conditions). Predicted finish: 2:19:30 (8370s), range 2:12:00–2:27:00."
+  }
+ },
+ "e949773c8748b4d5": {
+  "tag": "M4 full training log",
+  "model": "claude-haiku-4-5",
+  "sample": 1,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 5082,
+   "inference_geo": "not_available",
+   "input_tokens": 3,
+   "output_tokens": 469,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0028561999999999997,
+  "created": "2026-09-27T20:30:38",
+  "output": {
+   "predicted_seconds": 8385,
+   "low_seconds": 7920,
+   "high_seconds": 8880,
+   "reasoning": "This is a 31-year-old male runner's first half marathon. Key observations: (1) Recent training volume is modest at 9.4 km/week average over 12 weeks with only 2 runs over 10km in that period. (2) Longest run ever is 15 km, with a recent 12 km run on 2026-08-09. (3) Best recent efforts show 5km pace of 5:16/km (2026-08-13) and 10km pace of 6:16/km (2026-08-09, in hot conditions). (4) Self-rated fitness is low (4 on 1-4 scale), suggesting under-preparation. (5) Recent pacing data shows deterioration: August runs at 6:12-6:37/km, late August-September slowing to 7:15-7:27/km, indicating fatigue or reduced fitness. (6) Garmin VO2max of 51.2 suggests reasonable aerobic capacity. (7) Wellness metrics are solid with good sleep and recovery. (8) Recent 5km best of 5:16/km translates to ~5:30/km sustainable pace for trained runners, but given modest training volume and self-assessment of poor preparation, predict conservative pacing. (9) Race conditions are favorable: 18°C, moderate wind, reasonable humidity. (10) For a first half marathon with this training base and recent pacing data, estimating a finish around 2:20 (8400 sec) seems reasonable—roughly 6:35-6:50/km average. Low estimate (~2:12, 7920 sec) assumes strong race execution and favorable pacing. High estimate (~2:28, 8880 sec) accounts for poor preparation, hitting the wall on unfamiliar distance, or poor race management. Central prediction: 2:19:45 (8385 seconds)."
+  }
+ },
+ "c053af28d961874c": {
+  "tag": "M4 full training log",
+  "model": "claude-haiku-4-5",
+  "sample": 2,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 5082,
+   "inference_geo": "not_available",
+   "input_tokens": 3,
+   "output_tokens": 455,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0027862,
+  "created": "2026-09-27T20:30:45",
+  "output": {
+   "predicted_seconds": 7920,
+   "low_seconds": 7560,
+   "high_seconds": 8340,
+   "reasoning": "The runner is completing his first half marathon with limited specific preparation. Key factors informing the prediction: (1) Current fitness level: recent 10km best effort is 1:02:00 (6:12/km), suggesting a sustainable pace around 6:10-6:15/km for the longer distance; (2) Longest recent run was 12km, well short of the 21.1km race distance, indicating potential pacing challenges; (3) Training volume has been modest (9.4 km/week average over 12 weeks, only 2 runs over 10km recently) and interrupted by sporadic weeks with minimal mileage; (4) Self-assessment of fitness is low (4/5 not well prepared), and recent paces have slowed (final runs showing 7:15/km pace on Sept 14); (5) Wellness metrics are reasonable but not exceptional (resting HR 39, HRV 53ms, sleep 6.8h); (6) Race context is favorable: moderate temperature (18°C), 100m elevation gain is modest, morning conditions adequate. Given the runner's proven ability to maintain ~5:35-5:40/km pace in training (Feb 15km run at 5:35/km), but accounting for: lack of half-marathon specific training, fatigue from exceeding previous long-run distance by ~6km, and a self-reported lack of preparation, a realistic pace deterioration to 6:15-6:20/km is expected. This yields ~2 hours 12 minutes (7920 seconds). The 90% confidence interval accounts for uncertainty in pacing discipline (low end assumes strong execution at 6:05/km pace = 7560s) and risk of hitting the wall or significant slowdown (high end at 6:35/km = 8340s), with wider confidence reflecting first half-marathon uncertainty."
+  }
+ },
+ "45eb18c451d04b84": {
+  "tag": "M4 full training log",
+  "model": "claude-haiku-4-5",
+  "sample": 3,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 5082,
+   "inference_geo": "not_available",
+   "input_tokens": 3,
+   "output_tokens": 548,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0032511999999999997,
+  "created": "2026-09-27T20:30:53",
+  "output": {
+   "predicted_seconds": 8280,
+   "low_seconds": 7920,
+   "high_seconds": 8640,
+   "reasoning": "This is a first-time half marathoner with modest but steady fitness. Key indicators: (1) Best recent 10km effort is 1:02:00 (6:12/km), achieved 2026-08-09 in warm conditions. (2) Best 15km effort is 1:23:09 (5:35/km) from 2026-02-08, nearly 7 months ago. (3) Recent training shows substantial volume decrease - only 5.4km in the most recent week (2026-09-14), suggesting taper but also potentially fatigue. (4) Recent long runs (12km on 2026-08-09, 10km on 2026-08-25) were run considerably slower than his historical 10km pace, averaging ~6:20-6:37/km, indicating difficulty sustaining aerobic pace over distance. (5) The runner self-rates as 'not well prepared' (4/4 on difficulty scale), which is a realistic self-assessment. (6) Garmin VO2max of 51.2 is decent but not elite. (7) Recent pace trend shows slowing: most September runs are 6-7min/km vs earlier 5:30-5:45/km base pace. (8) Race conditions are favorable (18°C, mild wind). Projection method: A conservative estimate anchors to the 15km reference (5:35/km = 1:23:09) extended to 21.1km with ~0.5-1.0% pace degradation for distance/fatigue effects, yielding roughly 5:50-6:00/km. This produces 2:03-2:06. More conservatively, using recent 10km race pace (6:12/km) with modest 2-3% deceleration over the additional 11km gives 2:15-2:20. Averaging these approaches with weighting toward the runner's demonstrated recent sustainable pace (post-August decline) yields approximately 2:18 (8280 seconds). 90% confidence interval: 2:12-2:24 (7920-8640 seconds) accounting for unknowns about race-day execution, pacing discipline, and final 5km mental factors in a first HM attempt."
+  }
+ },
+ "57c5b1c530323fed": {
+  "tag": "M4 full training log",
+  "model": "claude-haiku-4-5",
+  "sample": 4,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 5082,
+   "inference_geo": "not_available",
+   "input_tokens": 3,
+   "output_tokens": 552,
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0032711999999999997,
+  "created": "2026-09-27T20:31:01",
+  "output": {
+   "predicted_seconds": 8340,
+   "low_seconds": 7920,
+   "high_seconds": 8820,
+   "reasoning": "This runner is completing their first half marathon after 12 months of training (42 runs, 333 km total). Key observations: (1) Best 10km effort is 1:02:00 (6:12/km) from Aug 9, showing current fitness around 6:12/km pace. (2) Best 15km effort is 1:23:09 (5:33/km) from Feb 8, but that was 7 months ago with better fitness. (3) Recent form is declining: the last 4 runs show paces of 6:06, 7:15, 6:25, and 6:37/km - a concerning upward trend. (4) Weekly mileage averaged only 9.4 km/week over the last 12 weeks, with significant gaps and volatility (0 km weeks in July), indicating inconsistent preparation. (5) Self-rated fitness as 'not well prepared' (4/4) suggests awareness of undertrained status. (6) Longest run is 15 km (Feb 8), only 9 km short of race distance - suboptimal for a first half marathon. (7) Recent wellness metrics are adequate (resting HR 39, HRV 53ms, body battery 90) but sleep slightly low at 6.8h. (8) Race conditions are favorable (18°C, 67% humidity, moderate wind). (9) Garmin VO2max of 51.2 suggests decent aerobic capacity. Using recent 10km best of 6:12/km as baseline and adjusting for: half-marathon distance premium (~6-8% slower), first race nerves/experience (slightly negative), declining recent form (negative), but reasonable fitness level (positive), I estimate sustainable pace around 6:30-6:45/km. For 21.0975 km at 6:37/km average: 2:19:24 (8364 sec). Low estimate (6:20/km): 2:14:12 (8052 sec ≈ 7920). High estimate (6:50/km): 2:24:43 (8683 sec ≈ 8820). Predicted finish: 2:19:00 (8340 sec)."
+  }
+ },
+ "fc58a5fa6be22392": {
+  "tag": "M5a RAG",
+  "model": "claude-opus-5-5",
+  "sample": 0,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 2517
+   },
+   "cache_creation_input_tokens": 2517,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 732,
+   "output_tokens_details": {
+    "thinking_tokens": 323
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.027241,
+  "created": "2026-09-27T20:32:49",
+  "output": {
+   "predicted_seconds": 7680,
+   "low_seconds": 6950,
+   "high_seconds": 8900,
+   "reasoning": "Recent 5 km training best is 26:12 and the all-time best is 25:03. A standard Riegel projection from those gives a half marathon of roughly 1:53–1:57. That assumes endurance proportionate to speed, which this runner lacks. Volume has been about 9 km/week, with a longest run of 12 km in the last 8 weeks and only two runs over 10 km. He also rates himself as not well prepared. His February 15 km at 5:32/km shows a half near 2:00 was possible when fitter. Several points favour him: a very low resting HR, Garmin VO2max of 51 and good race-morning readiness suggest reasonable aerobic fitness, possibly from other sports. The comparable survey runners with similar 5 km times and low volume mostly finished between 2:00 and 2:20, clustering around 2:10. Against the fast end: mild but humid conditions (18°C) with some wind and 100 m of climbing, plus the likelihood of an over-ambitious first-half pace and late fade. Best estimate is about 2:08, with a wide interval reflecting the risk of a significant blow-up."
+  }
+ },
+ "be6996f84e8e5bc2": {
+  "tag": "M5a RAG",
+  "model": "claude-opus-5-5",
+  "sample": 1,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2517,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 655,
+   "output_tokens_details": {
+    "thinking_tokens": 256
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0141228,
+  "created": "2026-09-27T20:32:57",
+  "output": {
+   "predicted_seconds": 7620,
+   "low_seconds": 6900,
+   "high_seconds": 8700,
+   "reasoning": "Recent training bests are 26:12 for 5 km and 1:02 for 10 km. The all-time bests are 25:03 for 5 km and 1:23:09 for 15 km, both set during an earlier, fitter block. Riegel scaling from the recent 5 km gives about 2:00:30 for the half. That assumes endurance training this runner doesn't have. He averages only about 9 km a week, with patchy weeks. His longest run in the last 8 weeks is 12 km, and he rates himself 'not well prepared'. So I expect significant fade over the last 6–9 km, perhaps with walking breaks. The matched survey runners with similar 5 km times and low volume mostly finished between 2:00 and 2:20, clustering around 2:10. Race-day effort and a flat-ish course with 100 m of gain help. The mild 18°C with some wind is roughly neutral. The Garmin VO2max of 51 likely overstates his fitness. Best estimate is about 2:07, with a wide interval of 1:55 to 2:25 because of his low mileage and fade risk."
+  }
+ },
+ "1e06510580f19680": {
+  "tag": "M5a RAG",
+  "model": "claude-opus-5-5",
+  "sample": 2,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2517,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 622,
+   "output_tokens_details": {
+    "thinking_tokens": 210
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.013462799999999999,
+  "created": "2026-09-27T20:33:05",
+  "output": {
+   "predicted_seconds": 7700,
+   "low_seconds": 6900,
+   "high_seconds": 8900,
+   "reasoning": "The strongest evidence is recent training. The 5 km of 26:12 and 10 km of 1:02:00 in August were training efforts, so an all-out race 5 km is probably around 24:30–25:30. Riegel scaling from that gives about 1:55–1:58, but that assumes adequate endurance. Here endurance is weak: about 9 km/week, a longest recent run of 12 km, erratic weeks and a self-rating of 'not well prepared'. The all-time 15 km of 1:23:09 (February, likely a fitter phase) extrapolates to roughly 2:00 for the half, and current form looks weaker than that. Comparable low-volume runners with 5 km times of 23–26 min mostly finished in 2:00–2:20. The Garmin VO2max of 51 overstates his usable fitness. Conditions add a small penalty: mild but humid, with some wind. Race-day adrenaline and pacing help partly offset this, but late-race fade beyond 15 km is likely. Best estimate is about 2:08, with a range from 1:55 (good day) to 2:28 (significant fade or walking)."
+  }
+ },
+ "4dceade19300732b": {
+  "tag": "M5a RAG",
+  "model": "claude-opus-5-5",
+  "sample": 3,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2517,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 784,
+   "output_tokens_details": {
+    "thinking_tokens": 369
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0167028,
+  "created": "2026-09-27T20:33:14",
+  "output": {
+   "predicted_seconds": 7620,
+   "low_seconds": 6900,
+   "high_seconds": 8700,
+   "reasoning": "The runner's recent training 5 km is 26:12, and the all-time best is 25:03. Riegel scaling of 26:12 gives about 2:00:30 for the half, but that assumes adequate endurance, which he lacks. Over the last 12 weeks he has averaged only about 9.4 km per week, his longest run in 8 weeks is 12 km, and he rates himself as not well prepared. In February he covered 15 km at about 5:32/km, which shows some capacity for the distance, but his fitness has clearly dropped since then. On the positive side, the very low resting heart rate and a Garmin VO2max of 51 suggest a reasonable aerobic base, and race-day effort usually beats training efforts. Comparable survey runners with similar 5 km times and low volume mostly finished between 2:00 and 2:20, with a centre around 2:05–2:15. Conditions are mild (18°C) but somewhat windy, and the course has modest elevation gain. I expect him to fade in the last 5–8 km, so my estimate is about 2:07, with a wide range to reflect that this is his first half marathon on low mileage."
+  }
+ },
+ "e0760d757b1e6a25": {
+  "tag": "M5a RAG",
+  "model": "claude-opus-5-5",
+  "sample": 4,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2517,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 618,
+   "output_tokens_details": {
+    "thinking_tokens": 268
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.013382799999999999,
+  "created": "2026-09-27T20:33:22",
+  "output": {
+   "predicted_seconds": 7620,
+   "low_seconds": 6960,
+   "high_seconds": 8700,
+   "reasoning": "The fitness markers point to about 2:00. Riegel scaling of the recent 26:12 training 5 km gives roughly 2:00, and the February 15 km in 1:23 (5:32/km) extrapolates to about 2:00. The Garmin VO2max of 51 would suggest faster still, but it is probably optimistic. Several factors argue for slowing that down: very low recent volume (about 9 km/week, with erratic weeks), a longest run of only 12 km in the last 8 weeks, his own rating of 'not well prepared' (4 on a 1-4 scale), mild warmth and wind, and around 100 m of climbing. Comparable survey runners with a 25-26 min 5 km and similar low volume mostly finished between 2:00 and 2:20. Race-day adrenaline and a first-race effort may offset some of the fade. Best estimate is about 2:07, with a wide range to allow for late-race slowdown."
+  }
+ },
+ "c8795d28cc4ad1ab": {
+  "tag": "M5b ML->LLM",
+  "model": "claude-opus-5-5",
+  "sample": 0,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 3191
+   },
+   "cache_creation_input_tokens": 3191,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 801,
+   "output_tokens_details": {
+    "thinking_tokens": 358
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.031991,
+  "created": "2026-09-27T20:33:32",
+  "output": {
+   "predicted_seconds": 7920,
+   "low_seconds": 7200,
+   "high_seconds": 8940,
+   "reasoning": "Season-best formulas cluster around 2:00-2:02. The Personalised Riegel and the Bayesian blend are the most credible anchors, but they rely on the February 10k/15k and the June 5k, which are not current form. Recent efforts are clearly slower: 5k 26:12 gives about 2:00:31, and the 10k of 1:02:00 was probably a training run. The Garmin VO2max-based 1:29 is not credible, and the personal ML models learn training pace, so they overstate the time; treat them as an upper anchor. Several factors push the time above the formulas. It is his first half marathon. Volume is extremely low at about 9 km/week (5th percentile), with no run longer than 12 km in 8 weeks and 15 km as his longest ever. He rates himself poorly prepared. Race day brings 18°C, 67% humidity, 17 km/h wind and 100 m of climb. Together these add roughly 8-12% fade over the second half versus the formulas. Mitigating factors are the very low resting HR, a decent aerobic engine, good race-morning body battery, and race-day adrenaline. Best estimate is about 2:12, with a wide interval reflecting pacing and blow-up risk."
+  }
+ },
+ "0d7fce577f470abb": {
+  "tag": "M5b ML->LLM",
+  "model": "claude-opus-5-5",
+  "sample": 1,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 3191,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 837,
+   "output_tokens_details": {
+    "thinking_tokens": 269
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0180324,
+  "created": "2026-09-27T20:33:42",
+  "output": {
+   "predicted_seconds": 7980,
+   "low_seconds": 7320,
+   "high_seconds": 9120,
+   "reasoning": "The speed-based formulas (Riegel, VDOT, Cameron, Bayesian) cluster around 2:00-2:02, but they rest on the June 5k and February 10k/15k bests. Those efforts reflect better fitness than he has now. Recent evidence is weaker: a 26:12 5k and a 1:02:00 10k, which Riegel extends to about 2:00-2:17. The endurance gap is the dominant issue: - 9.4 km/week over the last 12 weeks, which is very erratic and around the 5th percentile. - Only 2 runs over 10 km in that period, and none longer than 12 km in the last 8 weeks. - This is his first half marathon, and he rates himself 'not well prepared'. Formulas assume trained endurance, so expect a significant fade after roughly 15 km. The personal ML models (2:18-2:29) learn training pace, so they overstate the time a little. A race-day effort plus first-race adrenaline should beat them. The Garmin VO2max-based figure (1:29) is not credible and I ignore it. Conditions are mildly unfavourable (18°C, 67% humidity, 17 km/h wind, 100 m of climbing), costing perhaps 1-2%. Wellness looks normal: HRV slightly below average, body battery good. I blend the recent Riegel (~2:03-2:05 adjusted) with a heavy low-volume fade penalty (+6-8 min), landing between the formula cluster and the personal ML. Best estimate is about 2:13. The interval is skewed slow because walking late in the race is a real risk."
+  }
+ },
+ "b6b529b7145eb4b3": {
+  "tag": "M5b ML->LLM",
+  "model": "claude-opus-5-5",
+  "sample": 2,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 3191,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 999,
+   "output_tokens_details": {
+    "thinking_tokens": 431
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0212724,
+  "created": "2026-09-27T20:33:54",
+  "output": {
+   "predicted_seconds": 7800,
+   "low_seconds": 7080,
+   "high_seconds": 8880,
+   "reasoning": "This is a first half marathon on very thin preparation: 9.4 km/week over the last 12 weeks, 12 km as the longest run in the last 8 weeks, 15 km as the longest ever, and a self-rating of 'not well prepared'. Recent form has also dropped from the February and June bests: the last-12-week 5k is 26:12 and the 10k is 1:02:00, the latter probably a training effort. So the season-best formula predictions of 1:55 to 2:02 are too optimistic, and the Garmin VO2max-based 1:29 is not credible. The training-pace ML models (2:18 to 2:29) run too slow because they learn easy training pace, not race effort. The most credible anchor is the recent 5k with a steeper endurance exponent suited to such low volume (about 1.10 to 1.12), which gives roughly 2:08 to 2:12. The Vickers population models land at 2:06 to 2:10, consistent with that. Two things pull in opposite directions. A resting HR of about 39 and VO2max of 51 suggest a decent aerobic engine, possibly from cross-training, and race-day adrenaline helps. Against that, the last 6 km go beyond any recent run, which is a real fade risk, and first-timers tend to start too fast. Conditions are mildly unfavourable: 18°C, 67% humidity, 17 km/h wind and 100 m of climbing. Race-morning wellness is fine (HRV slightly low, body battery 90). Best estimate is about 2:10, with a wide, right-skewed interval to allow for a possible late blow-up."
+  }
+ },
+ "3ab21cbc36e3e3d4": {
+  "tag": "M5b ML->LLM",
+  "model": "claude-opus-5-5",
+  "sample": 3,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 3191,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 901,
+   "output_tokens_details": {
+    "thinking_tokens": 369
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.0193124,
+  "created": "2026-09-27T20:34:05",
+  "output": {
+   "predicted_seconds": 7860,
+   "low_seconds": 7140,
+   "high_seconds": 9000,
+   "reasoning": "Season-best-based formulas cluster around 2:00-2:02, but those bests come from Feb (10k 55:06, 15k 1:23:09) and June (5k 25:03). Recent efforts are clearly slower (5k 26:12, 10k 1:02:00 in August, though the 10k was probably a training run). Volume is very low: about 9.4 km/week with erratic weeks, only two runs over 10 km in 12 weeks, and a longest-ever run of 15 km. This is a first half marathon and the runner self-rates as not well prepared. A realistic current 10k capability is about 57-58 min, which translates to roughly 2:06 by Riegel. On top of that, the low-volume endurance gap and first-race fade after 15 km should cost several more minutes. Conditions also count against him: 18°C, 67% humidity, 17 km/h wind and 100 m of climbing. Against that, a resting HR of about 39, Garmin VO2max 51 and stable race-morning wellness point to a decent aerobic base, possibly from other sports, which limits the chance of a collapse. The Garmin VO2max-based 1:29 figure is discarded as unrealistic. The personal ML models (2:18-2:29) learn training pace and overshoot. The population models (about 2:06-2:10) fit this profile best. Best estimate is about 2:11, with a wide range from 1:59 (a well-paced race on old fitness) to 2:30 (a significant late fade with walking)."
+  }
+ },
+ "3f012030063423df": {
+  "tag": "M5b ML->LLM",
+  "model": "claude-opus-5-5",
+  "sample": 4,
+  "stop_reason": "end_turn",
+  "usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 3191,
+   "inference_geo": "global",
+   "input_tokens": 4,
+   "output_tokens": 830,
+   "output_tokens_details": {
+    "thinking_tokens": 297
+   },
+   "service_tier": "standard"
+  },
+  "cost_usd": 0.017892400000000003,
+  "created": "2026-09-27T20:34:15",
+  "output": {
+   "predicted_seconds": 7980,
+   "low_seconds": 7140,
+   "high_seconds": 9300,
+   "reasoning": "The formula models anchor on February and June bests: a 55:06 10k and 1:23:09 15k at about 5:32/km, plus a 25:03 5k. The last 12 weeks show clear detraining. The recent bests are a 26:12 5k and a 1:02:00 10k, and volume is only about 9.4 km/week and very erratic, with two zero weeks. Only two runs exceeded 10 km recently, and the longest run in the last 8 weeks was 12 km. For a first half marathon, this endurance gap is the dominant factor. Riegel from the recent 5k (2:00:31) assumes endurance matched to speed, which this runner lacks, so I'd add about 8–15 minutes for late-race fade and possible walking. The personal-ML models (2:18–2:29) learn training pace and likely overstate the time. Garmin VO2max (1:29) and the Garmin predictor (1:58) are too optimistic. Conditions add a small penalty: 18°C, 67% humidity, 17 km/h wind and 100 m of climbing, worth perhaps 1–2%. Wellness is neutral, with HRV slightly low but body battery good. The runner also self-rates as 'not well prepared'. Best estimate is about 2:13, which assumes a 6:00–6:10/km start that decays to 6:40–7:00+/km after 15 km. The interval runs from about 1:59 (paces well and holds on) to 2:35 (significant walking or a blow-up)."
+  }
+ },
+ "c03da06b108cf62d": {
+  "tag": "M5c agent",
+  "model": "claude-opus-5-5",
+  "sample": 0,
+  "turns": 5,
+  "usage": {
+   "input_tokens": 22146,
+   "output_tokens": 2159,
+   "cache_read_input_tokens": 0,
+   "cache_creation_input_tokens": 0
+  },
+  "cost_usd": 0.131764,
+  "output": {
+   "predicted_seconds": 7590,
+   "low_seconds": 6960,
+   "high_seconds": 8700,
+   "reasoning": "Best recent training efforts are a 26:12 5 km (in 31°C heat) and 1:02 for 10 km. Riegel and VDOT put that at about 2:00:30, and the February 15 km at 1:23 points to about 1:59. Those formulas assume training for the distance, but he only averages about 9 km a week, his longest run in the last 8 weeks is 12 km, it's his first half and he rates himself poorly prepared. The population model, which adjusts for low volume, says 2:11:36. Race-day adrenaline and the likelihood that his true 5 km is faster than that heat-affected effort pull the estimate below that. Against that, conditions are mildly warm (18°C) with a 17 km/h wind and 100 m of climbing, and fading after 15 km is likely. I blended the two to about 2:06:30, with a wide interval skewed toward slower times."
+  },
+  "trace": [
+   {
+    "tool": "get_runner_profile",
+    "input": {},
+    "output": "{\"sex\": \"M\", \"age\": 31, \"weight_kg\": 70, \"height_cm\": 174, \"experience\": \"first half marathon; running regularly since Sept 2025\", \"self_rated_fitness\": \"not well prepared (4 on a 1-4 scale)\"}"
+   },
+   {
+    "tool": "get_training_overview",
+    "input": {},
+    "output": "{\"totals\": {\"runs_last_12_months\": 42, \"km_last_12_months\": 333.0, \"runs_last_12_weeks\": 15, \"km_last_12_weeks\": 113.1, \"avg_km_per_week_last_12_weeks\": 9.4, \"longest_run_ever_km\": 15.0, \"longest_run_last_8_weeks_km\": 12.0, \"runs_over_10km_last_12_weeks\": 2}, \"weekly_km\": {\"2026-06-01\": 10.9, \"2026-06-08\": 8.6, \"2026-06-15\": 7.0, \"2026-06-22\": 5.5, \"2026-06-29\": 13.1, \"2026-07-06\": 0.0, \"2026-07-13\": 14.0, \"2026-07-20\": 7.3, \"2026-07-27\": 0.0, \"2026-08-03\": 28.3, \"2026-08-10\": 5.7, \"2026-08-17\": 8.3, \"2026-08-24\": 18.0, \"2026-08-31\": 5.0, \"2026-09-07\": 8.0, \"2026-09-14\": 5.4}}"
+   },
+   {
+    "tool": "get_best_efforts",
+    "input": {
+     "period": "last_12_weeks"
+    },
+    "output": "{\"1km\": {\"time_seconds\": 290, \"time\": \"0:04:50\", \"date\": \"2026-07-23\"}, \"3km\": {\"time_seconds\": 928, \"time\": \"0:15:28\", \"date\": \"2026-08-13\"}, \"5km\": {\"time_seconds\": 1572, \"time\": \"0:26:12\", \"date\": \"2026-08-13\"}, \"10km\": {\"time_seconds\": 3720, \"time\": \"1:02:00\", \"date\": \"2026-08-09\"}}"
+   },
+   {
+    "tool": "get_race_conditions",
+    "input": {},
+    "output": "{\"race\": {\"name\": \"Semi-marathon Marcq-en-Baroeul\", \"date\": \"2026-09-20\", \"start_local\": \"10:18\", \"distance_km\": 21.0975, \"course_elev_gain_m\": 100}, \"forecast\": {\"temp_c\": 18.2, \"apparent_temp_c\": 16.3, \"humidity_pct\": 67, \"wind_kmh\": 17.4}}"
+   },
+   {
+    "tool": "get_wellness",
+    "input": {},
+    "output": "{\"last_4_weeks_avg\": {\"sleep_h\": 6.7, \"sleep_score\": 72.8, \"hrv_overnight_ms\": 59.2, \"resting_hr\": 39.5, \"body_battery_wake\": 85.4}, \"race_morning\": {\"sleep_h\": 6.8, \"sleep_score\": 71.0, \"hrv_overnight_ms\": 53.0, \"resting_hr\": 39.0, \"body_battery_wake\": 90.0}, \"garmin_vo2max\": 51.2}"
+   },
+   {
+    "tool": "list_runs",
+    "input": {
+     "last_n_weeks": 12
+    },
+    "output": "[{\"date\": \"2026-06-30\", \"km\": 5.03, \"moving_time\": \"0:30:07\", \"pace\": \"5:59/km\", \"avg_hr\": 146, \"elev_gain_m\": 21, \"temp_c\": 16}, {\"date\": \"2026-07-05\", \"km\": 8.03, \"moving_time\": \"0:45:35\", \"pace\": \"5:41/km\", \"avg_hr\": 168, \"elev_gain_m\": 6, \"temp_c\": 22}, {\"date\": \"2026-07-14\", \"km\": 4.57, \"moving_time\": \"0:24:20\", \"pace\": \"5:20/km\", \"avg_hr\": 151, \"elev_gain_m\": 0, \"temp_c\": 32}, {\"date\": \"2026-07-19\", \"km\": 9.46, \"moving_time\": \"0:55:28\", \"pace\": \"5:52/km\", \"avg_hr\": 165, \"elev_gain_m\": 10, \"temp_c\": 19}, {\"date\": \"2026-07-23\", \"km\": 7.32, \"moving_time\": \"0:42:11\", \"pace\": \"5:46/km\", \"avg_hr\": 159, \"elev_gain_m\": 10, \"temp_c\": 22}, {\"date\": \"2026-08-03\", \"km\": 7.28, \"moving_time\": \"0:45:08\", \"pace\": \"6:12/km\", \"avg_hr\": 159, \"elev_gain_m\": 13, \"temp_c\": 23}, {\"date\": \"2026-08-06\", \"km\": 9.01, \"moving_time\": \"0:52:14\", \"pace\": \"5:48/km\", \"avg_hr\": 162, \"elev_gain_m\": 16, \"temp_c\": 22}, {\"date\": \"2026-08-09\", \"km\": 12.01, \"moving_time\": \"1:15:20\", \"pace\": \"6:16/km\", \"avg_hr\": 161, \"elev_gain_m\": 21, \"temp_c\": 26}, {\"date\": \"2026-08-13\", \"km\": 5.7, \"moving_time\": \"0:30:01\", \"pace\": \"5:16/km\", \"avg_hr\": 157, \"elev_gain_m\": 0, \"temp_c\": 31}, {\"date\": \"2026-08-19\", \"km\": 8.28, \"moving_time\": \"0:53:11\", \"pace\": \"6:25/km\", \"avg_hr\": 155, \"elev_gain_m\": 146, \"temp_c\": 16}, {\"date\": \"2026-08-25\", \"km\": 10.01, \"moving_time\": \"1:06:14\", \"pace\": \"6:37/km\", \"avg_hr\": 158, \"elev_gain_m\": 192, \"temp_c\": 23}, {\"date\": \"2026-08-30\", \"km\": 8.02, \"moving_time\": \"0:59:42\", \"pace\": \"7:27/km\", \"avg_hr\": 151, \"elev_gain_m\": 168, \"temp_c\": 17}, {\"date\": \"2026-09-01\", \"km\": 5.01, \"moving_time\": \"0:33:25\", \"pace\": \"6:41/km\", \"avg_hr\": 147, \"elev_gain_m\": 87, \"temp_c\": 21}, {\"date\": \"2026-09-10\", \"km\": 8.01, \"moving_time\": \"0:48:51\", \"pace\": \"6:06/km\", \"avg_hr\": 145, \"elev_gain_m\": 12, \"temp_c\": 18}, {\"date\": \"2026-09-14\", \"km\": 5.4, \"moving_time\": \"0:39:09\", \"pace\": \"7:15/km\", \"avg_hr\": 132, \"elev_gain_m\": 12, \"temp_c\": 22}]"
+   },
+   {
+    "tool": "get_best_efforts",
+    "input": {
+     "period": "all"
+    },
+    "output": "{\"1km\": {\"time_seconds\": 244, \"time\": \"0:04:04\", \"date\": \"2025-10-12\"}, \"3km\": {\"time_seconds\": 895, \"time\": \"0:14:55\", \"date\": \"2026-06-23\"}, \"5km\": {\"time_seconds\": 1503, \"time\": \"0:25:03\", \"date\": \"2026-06-23\"}, \"10km\": {\"time_seconds\": 3306, \"time\": \"0:55:06\", \"date\": \"2026-02-08\"}, \"15km\": {\"time_seconds\": 4989, \"time\": \"1:23:09\", \"date\": \"2026-02-08\"}}"
+   },
+   {
+    "tool": "predict_riegel",
+    "input": {
+     "time_seconds": 1572.0,
+     "distance_km": 5.0,
+     "exponent": 1.06
+    },
+    "output": "{\"half_marathon_seconds\": 7232, \"half_marathon\": \"2:00:32\"}"
+   },
+   {
+    "tool": "predict_riegel",
+    "input": {
+     "time_seconds": 4989.0,
+     "distance_km": 15.0,
+     "exponent": 1.06
+    },
+    "output": "{\"half_marathon_seconds\": 7162, \"half_marathon\": \"1:59:22\"}"
+   },
+   {
+    "tool": "predict_population_model",
+    "input": {
+     "reference": "5k",
+     "reference_time_seconds": 1572.0,
+     "weekly_km": 9.4
+    },
+    "output": "{\"half_marathon_seconds\": 7896, \"half_marathon\": \"2:11:36\", \"interval_90\": [\"1:57:32\", \"2:27:20\"]}"
+   },
+   {
+    "tool": "predict_vdot",
+    "input": {
+     "time_seconds": 1572.0,
+     "distance_km": 5.0
+    },
+    "output": "{\"vdot\": 36.2, \"half_marathon_seconds\": 7237, \"half_marathon\": \"2:00:37\"}"
+   },
+   {
+    "tool": "submit_prediction",
+    "input": {
+     "predicted_seconds": 7590,
+     "low_seconds": 6960,
+     "high_seconds": 8700,
+     "reasoning": "Best recent training efforts are a 26:12 5 km (in 31°C heat) and 1:02 for 10 km. Riegel and VDOT put that at about 2:00:30, and the February 15 km at 1:23 points to about 1:59. Those formulas assume training for the distance, but he only averages about 9 km a week, his longest run in the last 8 weeks is 12 km, it's his first half and he rates himself poorly prepared. The population model, which adjusts for low volume, says 2:11:36. Race-day adrenaline and the likelihood that his true 5 km is faster than that heat-affected effort pull the estimate below that. Against that, conditions are mildly warm (18°C) with a 17 km/h wind and 100 m of climbing, and fading after 15 km is likely. I blended the two to about 2:06:30, with a wide interval skewed toward slower times."
+    },
+    "output": "Prediction recorded."
+   }
+  ]
+ },
+ "11335d77521e70cf": {
+  "tag": "M5c agent",
+  "model": "claude-opus-5-5",
+  "sample": 1,
+  "turns": 5,
+  "usage": {
+   "input_tokens": 21881,
+   "output_tokens": 1916,
+   "cache_read_input_tokens": 0,
+   "cache_creation_input_tokens": 0
+  },
+  "cost_usd": 0.125844,
+  "output": {
+   "predicted_seconds": 7560,
+   "low_seconds": 6960,
+   "high_seconds": 8520,
+   "reasoning": "Recent training bests: 5 km in 26:12 (in 31°C heat, submaximal HR) and 10 km in 1:02. In Feb, when fitter, a 15 km training effort took 1:23. VDOT on a ~25:40 5 km equivalent and Riegel on the Feb 15 km both give about 1:58–1:59, but that assumes proper endurance training. He is running only about 9 km a week, with 2 runs over 10 km in 12 weeks and a longest recent run of 12 km at 6:16/km. He rates himself not well prepared and this is his first half. The population model, which accounts for low volume, gives 2:09. Weather is mild (18°C, some wind). I expect a late fade in the last 6–8 km, partly offset by race-day adrenaline. Best estimate is about 2:06, with a wide interval."
+  },
+  "trace": [
+   {
+    "tool": "get_runner_profile",
+    "input": {},
+    "output": "{\"sex\": \"M\", \"age\": 31, \"weight_kg\": 70, \"height_cm\": 174, \"experience\": \"first half marathon; running regularly since Sept 2025\", \"self_rated_fitness\": \"not well prepared (4 on a 1-4 scale)\"}"
+   },
+   {
+    "tool": "get_training_overview",
+    "input": {},
+    "output": "{\"totals\": {\"runs_last_12_months\": 42, \"km_last_12_months\": 333.0, \"runs_last_12_weeks\": 15, \"km_last_12_weeks\": 113.1, \"avg_km_per_week_last_12_weeks\": 9.4, \"longest_run_ever_km\": 15.0, \"longest_run_last_8_weeks_km\": 12.0, \"runs_over_10km_last_12_weeks\": 2}, \"weekly_km\": {\"2026-06-01\": 10.9, \"2026-06-08\": 8.6, \"2026-06-15\": 7.0, \"2026-06-22\": 5.5, \"2026-06-29\": 13.1, \"2026-07-06\": 0.0, \"2026-07-13\": 14.0, \"2026-07-20\": 7.3, \"2026-07-27\": 0.0, \"2026-08-03\": 28.3, \"2026-08-10\": 5.7, \"2026-08-17\": 8.3, \"2026-08-24\": 18.0, \"2026-08-31\": 5.0, \"2026-09-07\": 8.0, \"2026-09-14\": 5.4}}"
+   },
+   {
+    "tool": "get_best_efforts",
+    "input": {
+     "period": "last_12_weeks"
+    },
+    "output": "{\"1km\": {\"time_seconds\": 290, \"time\": \"0:04:50\", \"date\": \"2026-07-23\"}, \"3km\": {\"time_seconds\": 928, \"time\": \"0:15:28\", \"date\": \"2026-08-13\"}, \"5km\": {\"time_seconds\": 1572, \"time\": \"0:26:12\", \"date\": \"2026-08-13\"}, \"10km\": {\"time_seconds\": 3720, \"time\": \"1:02:00\", \"date\": \"2026-08-09\"}}"
+   },
+   {
+    "tool": "get_race_conditions",
+    "input": {},
+    "output": "{\"race\": {\"name\": \"Semi-marathon Marcq-en-Baroeul\", \"date\": \"2026-09-20\", \"start_local\": \"10:18\", \"distance_km\": 21.0975, \"course_elev_gain_m\": 100}, \"forecast\": {\"temp_c\": 18.2, \"apparent_temp_c\": 16.3, \"humidity_pct\": 67, \"wind_kmh\": 17.4}}"
+   },
+   {
+    "tool": "get_wellness",
+    "input": {},
+    "output": "{\"last_4_weeks_avg\": {\"sleep_h\": 6.7, \"sleep_score\": 72.8, \"hrv_overnight_ms\": 59.2, \"resting_hr\": 39.5, \"body_battery_wake\": 85.4}, \"race_morning\": {\"sleep_h\": 6.8, \"sleep_score\": 71.0, \"hrv_overnight_ms\": 53.0, \"resting_hr\": 39.0, \"body_battery_wake\": 90.0}, \"garmin_vo2max\": 51.2}"
+   },
+   {
+    "tool": "list_runs",
+    "input": {
+     "last_n_weeks": 12
+    },
+    "output": "[{\"date\": \"2026-06-30\", \"km\": 5.03, \"moving_time\": \"0:30:07\", \"pace\": \"5:59/km\", \"avg_hr\": 146, \"elev_gain_m\": 21, \"temp_c\": 16}, {\"date\": \"2026-07-05\", \"km\": 8.03, \"moving_time\": \"0:45:35\", \"pace\": \"5:41/km\", \"avg_hr\": 168, \"elev_gain_m\": 6, \"temp_c\": 22}, {\"date\": \"2026-07-14\", \"km\": 4.57, \"moving_time\": \"0:24:20\", \"pace\": \"5:20/km\", \"avg_hr\": 151, \"elev_gain_m\": 0, \"temp_c\": 32}, {\"date\": \"2026-07-19\", \"km\": 9.46, \"moving_time\": \"0:55:28\", \"pace\": \"5:52/km\", \"avg_hr\": 165, \"elev_gain_m\": 10, \"temp_c\": 19}, {\"date\": \"2026-07-23\", \"km\": 7.32, \"moving_time\": \"0:42:11\", \"pace\": \"5:46/km\", \"avg_hr\": 159, \"elev_gain_m\": 10, \"temp_c\": 22}, {\"date\": \"2026-08-03\", \"km\": 7.28, \"moving_time\": \"0:45:08\", \"pace\": \"6:12/km\", \"avg_hr\": 159, \"elev_gain_m\": 13, \"temp_c\": 23}, {\"date\": \"2026-08-06\", \"km\": 9.01, \"moving_time\": \"0:52:14\", \"pace\": \"5:48/km\", \"avg_hr\": 162, \"elev_gain_m\": 16, \"temp_c\": 22}, {\"date\": \"2026-08-09\", \"km\": 12.01, \"moving_time\": \"1:15:20\", \"pace\": \"6:16/km\", \"avg_hr\": 161, \"elev_gain_m\": 21, \"temp_c\": 26}, {\"date\": \"2026-08-13\", \"km\": 5.7, \"moving_time\": \"0:30:01\", \"pace\": \"5:16/km\", \"avg_hr\": 157, \"elev_gain_m\": 0, \"temp_c\": 31}, {\"date\": \"2026-08-19\", \"km\": 8.28, \"moving_time\": \"0:53:11\", \"pace\": \"6:25/km\", \"avg_hr\": 155, \"elev_gain_m\": 146, \"temp_c\": 16}, {\"date\": \"2026-08-25\", \"km\": 10.01, \"moving_time\": \"1:06:14\", \"pace\": \"6:37/km\", \"avg_hr\": 158, \"elev_gain_m\": 192, \"temp_c\": 23}, {\"date\": \"2026-08-30\", \"km\": 8.02, \"moving_time\": \"0:59:42\", \"pace\": \"7:27/km\", \"avg_hr\": 151, \"elev_gain_m\": 168, \"temp_c\": 17}, {\"date\": \"2026-09-01\", \"km\": 5.01, \"moving_time\": \"0:33:25\", \"pace\": \"6:41/km\", \"avg_hr\": 147, \"elev_gain_m\": 87, \"temp_c\": 21}, {\"date\": \"2026-09-10\", \"km\": 8.01, \"moving_time\": \"0:48:51\", \"pace\": \"6:06/km\", \"avg_hr\": 145, \"elev_gain_m\": 12, \"temp_c\": 18}, {\"date\": \"2026-09-14\", \"km\": 5.4, \"moving_time\": \"0:39:09\", \"pace\": \"7:15/km\", \"avg_hr\": 132, \"elev_gain_m\": 12, \"temp_c\": 22}]"
+   },
+   {
+    "tool": "get_best_efforts",
+    "input": {
+     "period": "all"
+    },
+    "output": "{\"1km\": {\"time_seconds\": 244, \"time\": \"0:04:04\", \"date\": \"2025-10-12\"}, \"3km\": {\"time_seconds\": 895, \"time\": \"0:14:55\", \"date\": \"2026-06-23\"}, \"5km\": {\"time_seconds\": 1503, \"time\": \"0:25:03\", \"date\": \"2026-06-23\"}, \"10km\": {\"time_seconds\": 3306, \"time\": \"0:55:06\", \"date\": \"2026-02-08\"}, \"15km\": {\"time_seconds\": 4989, \"time\": \"1:23:09\", \"date\": \"2026-02-08\"}}"
+   },
+   {
+    "tool": "predict_population_model",
+    "input": {
+     "reference": "5k",
+     "reference_time_seconds": 1540.0,
+     "weekly_km": 9.4
+    },
+    "output": "{\"half_marathon_seconds\": 7768, \"half_marathon\": \"2:09:28\", \"interval_90\": [\"1:55:38\", \"2:24:57\"]}"
+   },
+   {
+    "tool": "predict_riegel",
+    "input": {
+     "time_seconds": 4989.0,
+     "distance_km": 15.0,
+     "exponent": 1.06
+    },
+    "output": "{\"half_marathon_seconds\": 7162, \"half_marathon\": \"1:59:22\"}"
+   },
+   {
+    "tool": "predict_vdot",
+    "input": {
+     "time_seconds": 1540.0,
+     "distance_km": 5.0
+    },
+    "output": "{\"vdot\": 37.1, \"half_marathon_seconds\": 7089, \"half_marathon\": \"1:58:09\"}"
+   },
+   {
+    "tool": "submit_prediction",
+    "input": {
+     "predicted_seconds": 7560,
+     "low_seconds": 6960,
+     "high_seconds": 8520,
+     "reasoning": "Recent training bests: 5 km in 26:12 (in 31°C heat, submaximal HR) and 10 km in 1:02. In Feb, when fitter, a 15 km training effort took 1:23. VDOT on a ~25:40 5 km equivalent and Riegel on the Feb 15 km both give about 1:58–1:59, but that assumes proper endurance training. He is running only about 9 km a week, with 2 runs over 10 km in 12 weeks and a longest recent run of 12 km at 6:16/km. He rates himself not well prepared and this is his first half. The population model, which accounts for low volume, gives 2:09. Weather is mild (18°C, some wind). I expect a late fade in the last 6–8 km, partly offset by race-day adrenaline. Best estimate is about 2:06, with a wide interval."
+    },
+    "output": "Prediction recorded."
+   }
+  ]
+ },
+ "1a75d94b03e739db": {
+  "tag": "M5c agent",
+  "model": "claude-opus-5-5",
+  "sample": 2,
+  "turns": 5,
+  "usage": {
+   "input_tokens": 22101,
+   "output_tokens": 1954,
+   "cache_read_input_tokens": 0,
+   "cache_creation_input_tokens": 0
+  },
+  "cost_usd": 0.127484,
+  "output": {
+   "predicted_seconds": 7620,
+   "low_seconds": 7000,
+   "high_seconds": 8700,
+   "reasoning": "Recent training bests (26:12 5K, 1:02 10K) are not all-out efforts and would equate to about 2:00 by VDOT. However, volume has been very low (~9 km/week, 12 km longest run in 8 weeks, 15 km lifetime max), this is a first HM, and the runner self-rates poorly prepared. Riegel with exponent 1.10 gives 2:07:40 and the population model 2:11:36. February fitness (15 km at 5:33/km) suggests some underlying ability, plus race-day effort. Mild conditions (18°C, some wind). Expect a late-race fade: best estimate ~2:07, 90% interval 1:56:40–2:25."
+  },
+  "trace": [
+   {
+    "tool": "get_runner_profile",
+    "input": {},
+    "output": "{\"sex\": \"M\", \"age\": 31, \"weight_kg\": 70, \"height_cm\": 174, \"experience\": \"first half marathon; running regularly since Sept 2025\", \"self_rated_fitness\": \"not well prepared (4 on a 1-4 scale)\"}"
+   },
+   {
+    "tool": "get_training_overview",
+    "input": {},
+    "output": "{\"totals\": {\"runs_last_12_months\": 42, \"km_last_12_months\": 333.0, \"runs_last_12_weeks\": 15, \"km_last_12_weeks\": 113.1, \"avg_km_per_week_last_12_weeks\": 9.4, \"longest_run_ever_km\": 15.0, \"longest_run_last_8_weeks_km\": 12.0, \"runs_over_10km_last_12_weeks\": 2}, \"weekly_km\": {\"2026-06-01\": 10.9, \"2026-06-08\": 8.6, \"2026-06-15\": 7.0, \"2026-06-22\": 5.5, \"2026-06-29\": 13.1, \"2026-07-06\": 0.0, \"2026-07-13\": 14.0, \"2026-07-20\": 7.3, \"2026-07-27\": 0.0, \"2026-08-03\": 28.3, \"2026-08-10\": 5.7, \"2026-08-17\": 8.3, \"2026-08-24\": 18.0, \"2026-08-31\": 5.0, \"2026-09-07\": 8.0, \"2026-09-14\": 5.4}}"
+   },
+   {
+    "tool": "get_best_efforts",
+    "input": {
+     "period": "last_12_weeks"
+    },
+    "output": "{\"1km\": {\"time_seconds\": 290, \"time\": \"0:04:50\", \"date\": \"2026-07-23\"}, \"3km\": {\"time_seconds\": 928, \"time\": \"0:15:28\", \"date\": \"2026-08-13\"}, \"5km\": {\"time_seconds\": 1572, \"time\": \"0:26:12\", \"date\": \"2026-08-13\"}, \"10km\": {\"time_seconds\": 3720, \"time\": \"1:02:00\", \"date\": \"2026-08-09\"}}"
+   },
+   {
+    "tool": "get_race_conditions",
+    "input": {},
+    "output": "{\"race\": {\"name\": \"Semi-marathon Marcq-en-Baroeul\", \"date\": \"2026-09-20\", \"start_local\": \"10:18\", \"distance_km\": 21.0975, \"course_elev_gain_m\": 100}, \"forecast\": {\"temp_c\": 18.2, \"apparent_temp_c\": 16.3, \"humidity_pct\": 67, \"wind_kmh\": 17.4}}"
+   },
+   {
+    "tool": "get_wellness",
+    "input": {},
+    "output": "{\"last_4_weeks_avg\": {\"sleep_h\": 6.7, \"sleep_score\": 72.8, \"hrv_overnight_ms\": 59.2, \"resting_hr\": 39.5, \"body_battery_wake\": 85.4}, \"race_morning\": {\"sleep_h\": 6.8, \"sleep_score\": 71.0, \"hrv_overnight_ms\": 53.0, \"resting_hr\": 39.0, \"body_battery_wake\": 90.0}, \"garmin_vo2max\": 51.2}"
+   },
+   {
+    "tool": "list_runs",
+    "input": {
+     "last_n_weeks": 12
+    },
+    "output": "[{\"date\": \"2026-06-30\", \"km\": 5.03, \"moving_time\": \"0:30:07\", \"pace\": \"5:59/km\", \"avg_hr\": 146, \"elev_gain_m\": 21, \"temp_c\": 16}, {\"date\": \"2026-07-05\", \"km\": 8.03, \"moving_time\": \"0:45:35\", \"pace\": \"5:41/km\", \"avg_hr\": 168, \"elev_gain_m\": 6, \"temp_c\": 22}, {\"date\": \"2026-07-14\", \"km\": 4.57, \"moving_time\": \"0:24:20\", \"pace\": \"5:20/km\", \"avg_hr\": 151, \"elev_gain_m\": 0, \"temp_c\": 32}, {\"date\": \"2026-07-19\", \"km\": 9.46, \"moving_time\": \"0:55:28\", \"pace\": \"5:52/km\", \"avg_hr\": 165, \"elev_gain_m\": 10, \"temp_c\": 19}, {\"date\": \"2026-07-23\", \"km\": 7.32, \"moving_time\": \"0:42:11\", \"pace\": \"5:46/km\", \"avg_hr\": 159, \"elev_gain_m\": 10, \"temp_c\": 22}, {\"date\": \"2026-08-03\", \"km\": 7.28, \"moving_time\": \"0:45:08\", \"pace\": \"6:12/km\", \"avg_hr\": 159, \"elev_gain_m\": 13, \"temp_c\": 23}, {\"date\": \"2026-08-06\", \"km\": 9.01, \"moving_time\": \"0:52:14\", \"pace\": \"5:48/km\", \"avg_hr\": 162, \"elev_gain_m\": 16, \"temp_c\": 22}, {\"date\": \"2026-08-09\", \"km\": 12.01, \"moving_time\": \"1:15:20\", \"pace\": \"6:16/km\", \"avg_hr\": 161, \"elev_gain_m\": 21, \"temp_c\": 26}, {\"date\": \"2026-08-13\", \"km\": 5.7, \"moving_time\": \"0:30:01\", \"pace\": \"5:16/km\", \"avg_hr\": 157, \"elev_gain_m\": 0, \"temp_c\": 31}, {\"date\": \"2026-08-19\", \"km\": 8.28, \"moving_time\": \"0:53:11\", \"pace\": \"6:25/km\", \"avg_hr\": 155, \"elev_gain_m\": 146, \"temp_c\": 16}, {\"date\": \"2026-08-25\", \"km\": 10.01, \"moving_time\": \"1:06:14\", \"pace\": \"6:37/km\", \"avg_hr\": 158, \"elev_gain_m\": 192, \"temp_c\": 23}, {\"date\": \"2026-08-30\", \"km\": 8.02, \"moving_time\": \"0:59:42\", \"pace\": \"7:27/km\", \"avg_hr\": 151, \"elev_gain_m\": 168, \"temp_c\": 17}, {\"date\": \"2026-09-01\", \"km\": 5.01, \"moving_time\": \"0:33:25\", \"pace\": \"6:41/km\", \"avg_hr\": 147, \"elev_gain_m\": 87, \"temp_c\": 21}, {\"date\": \"2026-09-10\", \"km\": 8.01, \"moving_time\": \"0:48:51\", \"pace\": \"6:06/km\", \"avg_hr\": 145, \"elev_gain_m\": 12, \"temp_c\": 18}, {\"date\": \"2026-09-14\", \"km\": 5.4, \"moving_time\": \"0:39:09\", \"pace\": \"7:15/km\", \"avg_hr\": 132, \"elev_gain_m\": 12, \"temp_c\": 22}]"
+   },
+   {
+    "tool": "get_best_efforts",
+    "input": {
+     "period": "all"
+    },
+    "output": "{\"1km\": {\"time_seconds\": 244, \"time\": \"0:04:04\", \"date\": \"2025-10-12\"}, \"3km\": {\"time_seconds\": 895, \"time\": \"0:14:55\", \"date\": \"2026-06-23\"}, \"5km\": {\"time_seconds\": 1503, \"time\": \"0:25:03\", \"date\": \"2026-06-23\"}, \"10km\": {\"time_seconds\": 3306, \"time\": \"0:55:06\", \"date\": \"2026-02-08\"}, \"15km\": {\"time_seconds\": 4989, \"time\": \"1:23:09\", \"date\": \"2026-02-08\"}}"
+   },
+   {
+    "tool": "predict_riegel",
+    "input": {
+     "time_seconds": 1572.0,
+     "distance_km": 5.0,
+     "exponent": 1.1
+    },
+    "output": "{\"half_marathon_seconds\": 7660, \"half_marathon\": \"2:07:40\"}"
+   },
+   {
+    "tool": "predict_vdot",
+    "input": {
+     "time_seconds": 1572.0,
+     "distance_km": 5.0
+    },
+    "output": "{\"vdot\": 36.2, \"half_marathon_seconds\": 7237, \"half_marathon\": \"2:00:37\"}"
+   },
+   {
+    "tool": "predict_population_model",
+    "input": {
+     "reference": "5k",
+     "reference_time_seconds": 1572.0,
+     "weekly_km": 9.4
+    },
+    "output": "{\"half_marathon_seconds\": 7896, \"half_marathon\": \"2:11:36\", \"interval_90\": [\"1:57:32\", \"2:27:20\"]}"
+   },
+   {
+    "tool": "predict_riegel",
+    "input": {
+     "time_seconds": 4989.0,
+     "distance_km": 15.0,
+     "exponent": 1.08
+    },
+    "output": "{\"half_marathon_seconds\": 7211, \"half_marathon\": \"2:00:11\"}"
+   },
+   {
+    "tool": "submit_prediction",
+    "input": {
+     "predicted_seconds": 7620,
+     "low_seconds": 7000,
+     "high_seconds": 8700,
+     "reasoning": "Recent training bests (26:12 5K, 1:02 10K) are not all-out efforts and would equate to about 2:00 by VDOT. However, volume has been very low (~9 km/week, 12 km longest run in 8 weeks, 15 km lifetime max), this is a first HM, and the runner self-rates poorly prepared. Riegel with exponent 1.10 gives 2:07:40 and the population model 2:11:36. February fitness (15 km at 5:33/km) suggests some underlying ability, plus race-day effort. Mild conditions (18°C, some wind). Expect a late-race fade: best estimate ~2:07, 90% interval 1:56:40–2:25."
+    },
+    "output": "Prediction recorded."
+   }
+  ]
+ }
+}

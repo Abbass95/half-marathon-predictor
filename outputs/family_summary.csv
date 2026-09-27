@@ -1,0 +1,6 @@
+family,n_methods,best_method,best_abs_error,median_abs_error,interval_coverage,llm_cost_usd
+M1 Formulas,11,Daniels VDOT from 10k (season best),0.0,168.0,1/1,0.0
+M2 Personal ML,4,"Training-load Ridge (all runs, no HR)",961.0,1176.0,1/3,0.0
+M3 Population ML,6,Population prior x personal curve (Bayesian),25.0,261.0,5/5,0.0
+M4 Claude only,4,Claude Opus 5.5 - full training log,13.0,710.5,2/4,0.20299999999999999
+M5 Hybrid,6,Median of all M1-M3 predictions (n=21),0.0,288.0,3/4,0.579

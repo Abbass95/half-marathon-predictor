@@ -1,0 +1,32 @@
+family,method,predicted_s,low_s,high_s,notes,created
+M1 Formulas,Riegel from 5k (season best),6915,,,"5k 0:25:03 on 2026-06-23, exponent 1.06",2026-09-27T20:20:51
+M1 Formulas,Riegel from 10k (season best),7295,,,"10k 0:55:06 on 2026-02-08, exponent 1.06",2026-09-27T20:20:51
+M1 Formulas,Riegel from 5k (last 12 wk),7231,,,"5k 0:26:12 on 2026-08-13, exponent 1.06",2026-09-27T20:20:51
+M1 Formulas,Riegel from 10k (last 12 wk),8209,,,"10k 1:02:00 on 2026-08-09, exponent 1.06",2026-09-27T20:20:51
+M1 Formulas,Riegel from 15k (season best),7163,,,15k 1:23:09 on 2026-02-08,2026-09-27T20:20:51
+M1 Formulas,Cameron from 10k (season best),7290,,,Cameron (1998) formula,2026-09-27T20:20:51
+M1 Formulas,Personalised Riegel (own fatigue curve),7258,7234.0,7863.0,fitted exponent b=1.078 on 3/5/10/15k season bests; 90% bootstrap interval over runs,2026-09-27T20:20:51
+M1 Formulas,Daniels VDOT from 10k (season best),7331,,,VDOT 35.7,2026-09-27T20:20:51
+M1 Formulas,Daniels VDOT from 10k (last 12 wk),8240,,,VDOT 31.0,2026-09-27T20:20:51
+M1 Formulas,Daniels VDOT from Garmin VO2max,5380,,,Garmin VO2max 51.2 used as VDOT,2026-09-27T20:20:51
+M1 Formulas,Garmin Race Predictor,7115,,,Garmin Connect prediction on 2026-09-19 (commercial black box),2026-09-27T20:20:51
+M2 Personal ML,"Training-load Ridge (all runs, no HR)",8292,7796.0,8886.0,LORO MAE 24 s/km (mean baseline 28); learns *training* pace,2026-09-27T20:23:55
+M2 Personal ML,"Training-load GBM (all runs, no HR)",8947,,,LORO MAE 22 s/km (mean baseline 28); learns *training* pace,2026-09-27T20:23:55
+M2 Personal ML,Effort-aware Ridge (HR 168),8647,8160.0,9179.0,Garmin runs only; features 'physio+trend' chosen by LORO MAE; simulated at hardest pre-race avg HR; LORO MAE 20 s/km,2026-09-27T20:23:55
+M2 Personal ML,Effort-aware GBM (HR 168),8367,7166.0,9217.0,Garmin runs only; features 'physio+trend' chosen by LORO MAE; simulated at hardest pre-race avg HR; LORO MAE 27 s/km,2026-09-27T20:23:55
+M3 Population ML,"Population linear from 5k (Vickers, n=816)",7620,6789.0,8552.0,"5-fold CV MAE 5.7 min on population; your season-best 5k 0:25:03, 9.4 km/wk",2026-09-27T20:26:41
+M3 Population ML,"Population GBM from 5k (Vickers, n=816)",7564,6732.0,8499.0,"5-fold CV MAE 5.7 min on population; your season-best 5k 0:25:03, 9.4 km/wk",2026-09-27T20:26:41
+M3 Population ML,"Population linear from 10k (Vickers, n=526)",7800,6895.0,8825.0,"5-fold CV MAE 5.7 min on population; your season-best 10k 0:55:06, 9.4 km/wk",2026-09-27T20:26:41
+M3 Population ML,"Population GBM from 10k (Vickers, n=526)",7670,6764.0,8699.0,"5-fold CV MAE 6.2 min on population; your season-best 10k 0:55:06, 9.4 km/wk",2026-09-27T20:26:41
+M3 Population ML,Population prior x personal curve (Bayesian),7306,7024.0,7599.0,"prior = mean of Vickers linear models, likelihood = personalised Riegel; 89% weight on personal data",2026-09-27T20:26:41
+M3 Population ML,"BMClab weak-label GBM (n=17,093)",7299,,,labels = fastest ~21 km day per athlete (2019); CV MAE 9.0 min; your 12-wk volume is at the 5th percentile,2026-09-27T20:26:41
+M4 Claude only,Claude Opus 5.5 - minimal profile,7824,7050.0,9120.0,mean of 5 samples (spread 2:07:00-2:13:00); cost $0.049,2026-09-27T20:31:27
+M4 Claude only,Claude Haiku 4.5 - minimal profile,2000,1882.0,2132.0,IMPLAUSIBLE - arithmetic/unit error: the reasoning estimates ~5:50-6:05/km but converts 21.1 km to ~33 min. mean of 5 samples (spread 0:32:43-0:34:04); cost $0.011,2026-09-27T20:31:27
+M4 Claude only,Claude Opus 5.5 - full training log,7344,6742.0,8404.0,mean of 5 samples (spread 2:00:30-2:04:00); cost $0.122,2026-09-27T20:31:27
+M4 Claude only,Claude Haiku 4.5 - full training log,8259,7848.0,8700.0,mean of 5 samples (spread 2:12:00-2:19:45); cost $0.021,2026-09-27T20:31:27
+M5 Hybrid,"kNN baseline (k=20, median HM/5k ratio)",7442,,,no LLM: nearest Vickers runners' HM/5k ratio x your 5k,2026-09-27T20:35:27
+M5 Hybrid,Claude + retrieved similar runners (RAG),7648,6922.0,8780.0,mean of 5 samples (spread 2:07:00-2:08:20); cost $0.085,2026-09-27T20:35:27
+M5 Hybrid,Claude judging M1-M3 model outputs,7908,7176.0,9048.0,mean of 5 samples (spread 2:10:00-2:13:00); cost $0.109,2026-09-27T20:35:27
+M5 Hybrid,Claude agent with Python tools,7590,6973.0,8640.0,12 tool calls/run avg; mean of 3 samples (spread 2:06:00-2:07:00); cost $0.385,2026-09-27T20:35:27
+M5 Hybrid,Median of all M1-M3 predictions (n=21),7331,,,"equal weight, robust to outliers; weights cannot be learned from one race",2026-09-27T20:35:27
+M5 Hybrid,Inverse-variance mean (n=8 with intervals),7811,7607.0,8019.0,each model weighted by 1/variance of its own 90% interval (assumes independence -> too narrow),2026-09-27T20:35:27

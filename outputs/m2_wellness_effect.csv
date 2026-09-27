@@ -1,0 +1,6 @@
+metric,n_runs,spearman_rho,p_value
+sleep_h,19,-0.143,0.559
+sleep_score,19,-0.213,0.381
+hrv_overnight_ms,19,-0.04,0.869
+resting_hr,19,0.027,0.912
+body_battery_wake,19,-0.053,0.828
